@@ -127,7 +127,7 @@ input[type='email'] {
   padding: 10px;
 }
 
-.email-container button {
+.email-container form input[type='submit'] {
   width: 20%;
   margin: 10px;
   padding: 5px 5% 5px 5%;
@@ -137,7 +137,7 @@ input[type='email'] {
   border-radius: 0px 10px 10px 0px;
 }
 
-.email-container button:hover {
+.email-container form input[type='submit']:hover {
   cursor: pointer;
   background-color: #ffc7c7;
   box-shadow: 5px 5px 50px #ffc7c7;
@@ -265,13 +265,13 @@ input[type='email'] {
   }
 
   .email-container p,
-  input,
-  button {
+  input {
     font-size: 9px;
     padding: 1px;
     margin: 0;
   }
-  .email-container input {
+  .email-container input[type='text'],
+  input[type='email'] {
     font-size: 9px;
   }
 
